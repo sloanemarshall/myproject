@@ -1,0 +1,65 @@
+{% extends 'homepage.html' %}
+{% block content %}
+
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+
+.mission-statement {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 2;
+}
+
+.centered-elements{
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+}
+
+
+<body>
+
+  <!-- About Section -->
+  <div class="mission-statement" id="about" align="center" position="top:100%" >
+
+    <h3 class="centered-elements" style="font-size:5vw" position="top:100%">OUR MOTTO:<br>CAPITAL FOR SOCIETY.<br/></h3>
+
+  </div>
+
+
+<body/>
+
+    <p>The goal of KRS Investments to put the client and the clients wealth first. KRS uses advanced artificial intelligence modelling to bring you superior returns while minimizing risk. In an effort to be as ethical as possible, we aim to be as transparent as we can with our clients and boast best in class customer service.
+    </p>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://www.semiconductors.org/wp-content/uploads/2018/06/blank-headshot-263x300.jpg" alt="John" style="width:100%">
+      <h3>Keith Hacker</h3>
+      <p class="w3-opacity">Partner and Head of Technology</p>
+      <p>Keith combines nearly 15 years of analytical experience with extensive artificial intelligence skills. He hass tutored under some of the best minds at Google and has a proven track record of excellence. Keith brings expertise that supercharges investment returns.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://www.semiconductors.org/wp-content/uploads/2018/06/blank-headshot-263x300.jpg" alt="Jane" style="width:100%">
+      <h3>Rich Huisinga</h3>
+      <p class="w3-opacity">Partner and Head of keeping us out of Jail</p>
+      <p>WIth a wealth of experience in risk managment, financial analysis, and accounting, Rich is a master at avoiding and mitigating risk to prevent clients and the business from potential threats. He is a subject matter expert on all things regulation.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://www.semiconductors.org/wp-content/uploads/2018/06/blank-headshot-263x300.jpg" alt="Mike" style="width:100%">
+      <h3>Sloane Marshall</h3>
+      <p class="w3-opacity">Partner and in Charge of Making the Coffee</p>
+      <p>With 3-years of relevant business experience, Sloane brings an enthusiasm and initiative to the group. Driven to help clents build weatlth, Sloane is a welcome addition to the team.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+{% endblock %}
